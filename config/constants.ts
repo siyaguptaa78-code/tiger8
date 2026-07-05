@@ -47,9 +47,7 @@ export const SITE_CONFIG = {
   layout: {
     sectionOrder: [
       "hero",
-      "info",
-      "faq",
-      "responsible"
+      "info"
     ]
   }
 };
