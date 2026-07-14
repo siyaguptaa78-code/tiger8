@@ -235,6 +235,12 @@ button {
   }
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
 .main-wrapper {
   min-height: 100vh;
   display: flex;
