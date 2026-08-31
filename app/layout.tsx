@@ -9,7 +9,7 @@ const fjallaOne = Fjalla_One({ weight: "400", subsets: ["latin"], variable: "--f
 export const metadata: Metadata = {
   metadataBase: new URL('https://tigers365id.com'),
   verification: {
-    google: "Io0w5IJH1Fs9Js3vsv6Z29Dk8oygyZ34p73HcroXop8",
+    google: "4rOIin98EB4WV1HiT78JnwyGjTCDEW_ywIkOuej-QM0",
   },
   title: "Tiger365 Platform Ultimate Guide For Indian Players",
   description: "Welcome to Tiger365, India's premier online sports and gaming platform. Get your official Tiger365 ID instantly on WhatsApp, log in securely, and enjoy high-stakes live casino and sportsbooks.",
