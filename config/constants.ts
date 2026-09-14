@@ -23,7 +23,7 @@ export const SITE_CONFIG = {
     footerBg: "#0f172a", // Deep dark background for footer to look premium
   },
 
-  description: "Explore Tiger365 and Tigerexch365 the trusted platform for secure gaming and seamless betting. Download the Tiger365 App to get instant access and create your Tiger365 ID for a smooth, fast, and reliable experience",
+  description: "Explore Tiger365 and Tigerexch365 the trusted platform for secure gaming and seamless gaming. Download the Tiger365 App to get instant access and create your Tiger365 ID for a smooth, fast, and reliable experience",
   whatsappNumber: "8796686330",
   whatsappLink: "https://wa.me/918796686330",
   url: "https://tigers365id.com",

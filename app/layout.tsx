@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     google: "4rOIin98EB4WV1HiT78JnwyGjTCDEW_ywIkOuej-QM0",
   },
   title: "Tiger365 Online ID | Official Access Guide",
-  description: "Explore Tiger365 information, online ID guidance, sports betting and gaming resources, login help, and frequently asked questions.",
+  description: "Explore Tiger365 information, online ID guidance, sports gaming and gaming resources, login help, and frequently asked questions.",
   keywords: ["tiger365", "tiger365 login", "tiger365 register", "tiger365 id", "tiger365 exchange", "tiger 365", "tiger365 official ID"],
   applicationName: 'Tiger365',
   authors: [{ name: 'Tiger365' }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Tiger365 Online ID | Official Access Guide",
-    description: "Explore Tiger365 information, online ID guidance, sports betting and gaming resources, login help, and frequently asked questions.",
+    description: "Explore Tiger365 information, online ID guidance, sports gaming and gaming resources, login help, and frequently asked questions.",
     url: "https://tigers365id.com",
     siteName: "Tiger365",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Tiger365 Online ID | Official Access Guide",
-    description: "Explore Tiger365 information, online ID guidance, sports betting and gaming resources, login help, and frequently asked questions.",
+    description: "Explore Tiger365 information, online ID guidance, sports gaming and gaming resources, login help, and frequently asked questions.",
     images: ["https://tiger365com.com/wp-content/uploads/2025/04/logo-text-768x134.png"],
   },
   icons: {
@@ -78,7 +78,7 @@ export default function RootLayout({
         "@id": "https://tigers365id.com/#webpage",
         "url": "https://tigers365id.com/",
         "name": "Tiger365 Online ID | Official Access Guide",
-        "description": "Explore Tiger365 information, online ID guidance, sports betting and gaming resources, login help, and frequently asked questions.",
+        "description": "Explore Tiger365 information, online ID guidance, sports gaming and gaming resources, login help, and frequently asked questions.",
         "isPartOf": {
           "@id": "https://tigers365id.com/#website"
         }
@@ -117,7 +117,7 @@ export default function RootLayout({
             "name": "What sports are available on Tiger365?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+              "text": "Available sports can change. Check the current sports or gaming section on the website for the latest list and availability."
             }
           },
           {

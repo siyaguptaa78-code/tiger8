@@ -165,7 +165,7 @@ export default function JaspritBumrahBlogPage() {
               <div className={styles.ctaCard}>
                 <h3>Get Your Verified Tiger365 ID Instantly!</h3>
                 <p>
-                  Play with trust, fast deposits, and instant withdrawals on India's most secure sports exchange platform. Start betting on all cricket tournaments now!
+                  Play with trust, fast deposits, and instant withdrawals on India's most secure sports exchange platform. Start gaming on all cricket tournaments now!
                 </p>
                 <div className={styles.ctaBtnWrapper}>
                   <WhatsAppButton className={styles.ctaBtn}>

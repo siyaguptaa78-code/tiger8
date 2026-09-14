@@ -18,7 +18,7 @@ export default function HeroSection() {
           <div className={styles.imageWrapper}>
             <Image
               src={SITE_CONFIG.images.heroBanner}
-              alt="Tiger365 Online Betting Banner"
+              alt="Tiger365 Online Gaming Banner"
               width={1536}
               height={1024}
               priority
