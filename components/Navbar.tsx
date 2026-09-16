@@ -19,7 +19,9 @@ export default function Navbar() {
   }, []);
 
   const getWhatsAppLink = (menuItem: string) => {
-    const text = encodeURIComponent(`Hi! I want to get details regarding ${menuItem} on Tiger365.`);
+    const text = encodeURIComponent(
+      `Hi! I want to get details regarding ${menuItem} on Tiger365.`,
+    );
     return `${SITE_CONFIG.whatsappLink}?text=${text}`;
   };
 
@@ -34,7 +36,7 @@ export default function Navbar() {
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
           <div className={styles.logoWrapper}>
-            <Image 
+            <Image
               src="https://tiger-exchange247.com/wp-content/uploads/2022/11/logo-text-1024x179.png"
               alt="Tiger365 Logo"
               width={185}
@@ -49,30 +51,45 @@ export default function Navbar() {
         <nav className={styles.desktopNav}>
           <Link href="/">Home</Link>
           <Link href="#about">Tiger365</Link>
-          <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer">
+          <a
+            href={getWhatsAppLink("Tiger Exchange Cricket")}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Tiger Exchange Cricket
           </a>
-          <Link href="/blogs">
-            Blog
-          </Link>
+          <Link href="/blogs">Blog</Link>
         </nav>
 
         <div className={styles.navActions}>
-          <a 
-            href={`${SITE_CONFIG.whatsappLink}?text=Hi!%20I%20want%20to%20get%20Tiger%20Exchange%20ID%20instantly.`} 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href={`${SITE_CONFIG.whatsappLink}?text=Hi!%20I%20want%20to%20get%20Tiger%20Exchange%20ID%20instantly.`}
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.waIconWrapper}
             aria-label="WhatsApp Us"
           >
             {whatsappIcon}
           </a>
 
-          <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-            PLAY NOW
-          </WhatsAppButton>
-          
-          <button 
+          <a
+            href="https://www.Gabbar247.vip"
+            className={`${styles.desktopBtn} ${styles.loginBtn}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LOGIN
+          </a>
+          <a
+            href="https://www.Gabbar247.vip"
+            className={`${styles.desktopBtn} ${styles.registerBtn}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            REGISTER
+          </a>
+
+          <button
             className={styles.mobileMenuBtn}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle Menu"
@@ -87,18 +104,42 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>Tiger365</Link>
-          <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+          <Link href="/" onClick={() => setMobileMenuOpen(false)}>
+            Home
+          </Link>
+          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>
+            Tiger365
+          </Link>
+          <a
+            href={getWhatsAppLink("Tiger Exchange Cricket")}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
+          >
             Tiger Exchange Cricket
           </a>
           <Link href="/blogs" onClick={() => setMobileMenuOpen(false)}>
             Blog
           </Link>
           <div className={styles.mobileActions}>
-            <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-              PLAY NOW
-            </WhatsAppButton>
+            <a
+              href="https://www.Gabbar247.vip"
+              className={`${styles.desktopBtn} ${styles.loginBtn}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              LOGIN
+            </a>
+            <a
+              href="https://www.Gabbar247.vip"
+              className={`${styles.desktopBtn} ${styles.registerBtn}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              REGISTER
+            </a>
           </div>
         </div>
       )}

@@ -99,7 +99,7 @@ export default function LiveExchangeSimulator() {
   const handleBetClick = (team: string, type: "Back" | "Lay", oddValue: number | string | null) => {
     if (oddValue === null) return;
     const text = encodeURIComponent(
-      `Hi! I want to place a ${type} bet of ₹1000 on ${team} at odds of ${oddValue} on Tiger365.`
+      `Hi! I want to place a ${type} play of ₹1000 on ${team} at odds of ${oddValue} on Tiger365.`
     );
     window.open(`${SITE_CONFIG.whatsappLink}?text=${text}`, "_blank");
   };

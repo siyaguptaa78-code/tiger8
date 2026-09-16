@@ -72,6 +72,35 @@ export default function BlogsPage() {
                 <div className={styles.card}>
                   <div className={styles.imageContainer}>
                     <Image
+                      src="/banners/banner1.png"
+                      alt="Jasprit Bumrah Faces Crucial Fitness Test"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className={styles.cardImage}
+                      priority
+                    />
+                    <div className={styles.tag}>Cricket News</div>
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div className={styles.date}>September 4, 2026</div>
+                    <h2 className={styles.cardTitle}>
+                      Jasprit Bumrah Faces Crucial Fitness Test as India Prepare for a Packed Cricket Calendar
+                    </h2>
+                    <p className={styles.cardExcerpt}>
+                      Jasprit Bumrah's fitness has once again become one of the biggest talking points surrounding Indian cricket, with the premier fast bowler facing an important assessment ahead of India's upcoming T20I commitments...
+                    </p>
+                    <div className={styles.cardFooter}>
+                      <Link href="/jasprit-bumrah-fitness-test" className="btn-primary">
+                        Show More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Blog Card 2 */}
+                <div className={styles.card}>
+                  <div className={styles.imageContainer}>
+                    <Image
                       src="/banners/ipl_caps_winners_thumbnail.png"
                       alt="IPL Orange Cap & Purple Cap Winners"
                       fill
