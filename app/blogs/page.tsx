@@ -39,7 +39,36 @@ export default function BlogsPage() {
               </p>
 
               <div className={styles.grid}>
-                {/* Blog Card 1 */}
+                {/* Blog Card 1 - Newest */}
+                <div className={styles.card}>
+                  <div className={styles.imageContainer}>
+                    <Image
+                      src="/banners/ipl_2027_teams_squads_thumbnail.png"
+                      alt="IPL 2027 Teams & Squads"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className={styles.cardImage}
+                      priority
+                    />
+                    <div className={styles.tag}>IPL 2027</div>
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div className={styles.date}>September 16, 2026</div>
+                    <h2 className={styles.cardTitle}>
+                      IPL 2027 Teams & Squads: Complete Players List & Team Changes
+                    </h2>
+                    <p className={styles.cardExcerpt}>
+                      The IPL 2027 teams and squads will take shape through player retentions, releases, trades and the auction process. Explore how all 10 franchises build their teams for the 20th IPL season.
+                    </p>
+                    <div className={styles.cardFooter}>
+                      <Link href="/ipl-2027-teams-squads" className="btn-primary">
+                        Show More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Blog Card 2 */}
                 <div className={styles.card}>
                   <div className={styles.imageContainer}>
                     <Image
@@ -48,7 +77,6 @@ export default function BlogsPage() {
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
                       className={styles.cardImage}
-                      priority
                     />
                     <div className={styles.tag}>Cricket</div>
                   </div>
